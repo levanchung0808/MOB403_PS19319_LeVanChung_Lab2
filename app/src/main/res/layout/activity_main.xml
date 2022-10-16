@@ -34,4 +34,11 @@
         android:text="LOGIN"
         app:layout_constraintTop_toBottomOf="@+id/edtPassword" />
 
+    <Button
+        android:id="@+id/btnAddPodcast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add podcast"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogin" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
